@@ -95,7 +95,7 @@ const LandingPage = () => {
         variants={staggerContainer}
         className="py-8 sm:py-12 bg-white"
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div 
             variants={fadeInUp}
             className="text-center"
@@ -164,7 +164,7 @@ const LandingPage = () => {
               ))}
             </motion.div>
           </div>
-        </div>
+        </div> */}
       </motion.div>
 
       {/* Interactive Features Tabs */}

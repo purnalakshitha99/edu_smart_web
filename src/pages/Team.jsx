@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Wijenandana from "../assets/IT21158254.jpg";
 import purna from "../assets/IT21185502.jpeg";
 import dilshan from "../assets/IT21185298.jpeg";
+import nipunika from "../assets/IT21157950.png";
 
 const Team = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -27,21 +28,21 @@ const Team = () => {
       image: purna, // Replace with actual image import
       bio: "Java backend developer with experience in building scalable enterprise applications using Spring Boot and Hibernate. Focused on performance and security.",
       expertise: ["Java", "Spring Boot", "Hibernate", "MySQL", "JWT Security"],
-      linkedin: "#", // Replace with actual LinkedIn URL
+      linkedin: "https://www.linkedin.com/in/purna-lakshitha-063714218/", // Replace with actual LinkedIn URL
     },
     {
-      name: "W.M. Wijenayake",
+      name: "S.D.Wijenandana",
       role: "Full-Stack Developer",
       image: Wijenandana, // Replace with actual image import
       bio: "Skilled full-stack developer experienced in building robust web applications using MERN stack. Enthusiastic about clean code and modern web technologies.",
       expertise: ["React", "Node.js", "Express", "MongoDB", "REST APIs"],
-      linkedin: "#", // Replace with actual LinkedIn URL
+      linkedin: "https://www.linkedin.com/in/sasida-dilhan/", // Replace with actual LinkedIn URL
     },
     {
       name: "Emily Zhang",
       role: "AI Engineer",
       image:
-        "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop",
+        nipunika,
       bio: "Expert in computer vision and natural language processing. Develops our AI models.",
       expertise: ["Computer Vision", "NLP", "TensorFlow"],
       linkedin: "#",
