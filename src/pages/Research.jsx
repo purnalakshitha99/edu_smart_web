@@ -9,20 +9,20 @@ const Research = () => {
       category: "Project Documentation",
       items: [
         {
-          title: "Terms of Reference (TOR)",
+          title: "Research Paper - 24-25J-320_Research Paper",
           type: "PDF",
-          size: "2.4 MB",
-          date: "2023-09-01",
-          description: "Initial project scope and requirements document",
-          link: "https://drive.google.com/uc?export=download&id=1Cfs6KS5w_PHLj7IvCBY9ykHLqLKXNPyS"
+          size: "568 KB",
+          date: "2024-03-20",
+          description: "Research paper on AI-powered proctoring and student engagement detection",
+          link: "/files/24-25J-320_Research Paper.pdf"
         },
         {
-          title: "Project Proposal",
+          title: "Final Group Report - 24-25J-320_final_group_report",
           type: "PDF",
-          size: "3.1 MB",
-          date: "2023-09-15",
-          description: "Detailed project proposal with methodology and timeline",
-          link: "#"
+          size: "1.4 MB",
+          date: "2024-03-20",
+          description: "Comprehensive final report of the project",
+          link: "/files/24-25J-320_final_group_report.pdf"
         }
       ]
     },
@@ -30,44 +30,44 @@ const Research = () => {
       category: "Progress Reports",
       items: [
         {
-          title: "Progress Presentation I",
-          type: "PPTX",
-          size: "4.2 MB",
-          date: "2023-12-15",
+          title: "Progress Presentation 1",
+          type: "PDF",
+          size: "52 MB",
+          date: "2024-02-15",
           description: "First progress presentation covering initial development phase",
-          link: "#"
+          link: "/files/progress presentation 1.pdf"
         },
         {
-          title: "Progress Presentation II",
-          type: "PPTX",
-          size: "5.6 MB",
-          date: "2024-02-15",
+          title: "Progress Presentation 2",
+          type: "PDF",
+          size: "62 MB",
+          date: "2024-03-15",
           description: "Second progress presentation showcasing implementation progress",
-          link: "#"
+          link: "/files/progress presentation 2.pdf"
         }
       ]
     },
-    {
-      category: "Final Deliverables",
-      items: [
-        {
-          title: "Final Report",
-          type: "PDF",
-          size: "8.7 MB",
-          date: "2024-04-01",
-          description: "Comprehensive project report with all findings and results",
-          link: "#"
-        },
-        {
-          title: "Final Presentation",
-          type: "PPTX",
-          size: "6.3 MB",
-          date: "2024-04-15",
-          description: "Final project presentation with complete system overview",
-          link: "#"
-        }
-      ]
-    }
+    // {
+    //   category: "Final Deliverables",
+    //   items: [
+    //     {
+    //       title: "Final Report",
+    //       type: "PDF",
+    //       size: "8.7 MB",
+    //       date: "2024-04-01",
+    //       description: "Comprehensive project report with all findings and results",
+    //       link: "#"
+    //     },
+    //     {
+    //       title: "Final Presentation",
+    //       type: "PPTX",
+    //       size: "6.3 MB",
+    //       date: "2024-04-15",
+    //       description: "Final project presentation with complete system overview",
+    //       link: "#"
+    //     }
+    //   ]
+    // }
   ];
 
   const researchPapers = [
