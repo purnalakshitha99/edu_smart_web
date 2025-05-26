@@ -14,7 +14,7 @@ const Research = () => {
           size: "2.4 MB",
           date: "2023-09-01",
           description: "Initial project scope and requirements document",
-          link: "#"
+          link: "https://drive.google.com/uc?export=download&id=1Cfs6KS5w_PHLj7IvCBY9ykHLqLKXNPyS"
         },
         {
           title: "Project Proposal",
